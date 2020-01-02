@@ -6,7 +6,7 @@ Every webfont that is used in this website is licensed appropriately for non-com
 ## Image Credits
 All images have been licensed appropriately for use. Image credits:
 
-### damsa-door.jpg
+### damsa-door.jpg and damsa-statue.jpg
 Original source:
 
 https://www.reddit.com/r/Lovecraft/comments/bqw0lb/cthulhu_at_the_gates_of_rlyeh_personal_artwork/
@@ -48,4 +48,4 @@ Thomas Hawk
 
 https://www.flickr.com/photos/thomashawk/
 
-Licensed under (CC BY-NC 2.0) 
+Licensed under (CC BY-NC 2.0)
