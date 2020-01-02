@@ -1,7 +1,32 @@
 /*
   Eldritch Adventures website CSS stylesheet
 */
+
+/* First, defining some generic header styles, lest I go crazy */
+h1, h2, h3, h4, h5, h6 {
+  font-family:rapscallionregular;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+/* styles for header */
 header {
+  box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+  background-color: #1a1a1a;
+
+  /* Makes the header sticky */
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+}
+header h1 {
+  font-family: rapscallionregular;
+  color: #f2f2f2;
+  font-size: 3.5em;
+  line-height: 1em;
 }
 
 header nav ul {
@@ -9,4 +34,26 @@ header nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  color: #f2f2f2;
+  text-align:center;
+}
+
+header nav ul a {
+  color: #f2f2f2;
+}
+
+/* Styles for the hero */
+#hero {
+  height: 100vh;
+
+  /* Embed an image in the background of the hero */
+  background-image: url("../img/damsa-door.jpg");
+  background-size: cover;
+}
+#hero-title {
+  font-size: 4em;
+  letter-spacing: 0.4em;
+  font-family:rapscallionregular;
+  color: #f2f2f2;
+  margin-left:0.8em;
 }

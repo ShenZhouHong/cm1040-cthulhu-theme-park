@@ -16,21 +16,57 @@
     <script src="js/jquery-3.4.1.slim.min.js"></script>
 
     <!-- These are my own CSS and JavaScript files -->
+    <link rel="stylesheet" href="css/fonts.css" type="text/css">
     <link rel="stylesheet" href="css/common.css" type="text/css"/>
     <script src="js/common.js"></script>
 
   </head>
   <body class="container-fluid">
     <!-- Navigation bar built entirely using HTML5 semantic elements -->
-    <header class="row align-items-center">
+    <header class="row align-items-center" id="sticky-header">
       <h1 class="col-sm-4" id="main-logo">Eldritch Adventures</h1>
       <nav class="col-sm-6">
         <ul class="row">
-          <li class="col-sm"><a href="index.html">Home</a></li>
+          <li class="col-sm "><a href="index.html">Home</a></li>
           <li class="col-sm"><a href="dante.html">Dante's Joyride</a></li>
-          <li class="col-sm"><a href="summon.html">Eldritch Summoning</a></li>
+          <li class="col-sm"><a href="summon.html">Summoning</a></li>
+          <li class="col-sm"><a href="summon.html">Image Credits</a></li>
         </ul>
       </nav>
     </header>
+
+    <!--
+      Main 'hero' showcase. I decided not to make a carousel because it was
+      somewhat too complicated to implement
+    -->
+    <section class="row" id="hero">
+      <div class="col align-self-center">
+        <h2 id="hero-title">
+          <span>SUMMON</span><br>
+          <span>ALIEN</span><br>
+          <span>GODS</span>
+        </h2>
+      </div>
+    </section>
+
+    <!-- Three-column information section -->
+    <section>
+      <div class="row">
+        <div class="col">
+          <h2 style="text-align: center">VISIT THE CTHULHU THEME PARK</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <h2>DANTE'S JOYRIDE</h2>
+        </div>
+        <div class="col-sm">
+          <h2>ELDRITCH SUMMONS</h2>
+        </div>
+        <div class="col-sm">
+          <h2>ALTAR OF DARKNESS</h2>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
