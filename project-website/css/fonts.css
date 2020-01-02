@@ -1,11 +1,24 @@
 @font-face {
     font-family: 'rapscallionregular';
-    src: url('../fonts/rapscallion_regular_macroman/RAPSCALL-webfont.eot');
-    src: url('../fonts/rapscallion_regular_macroman/RAPSCALL-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/rapscallion_regular_macroman/RAPSCALL-webfont.woff2') format('woff2'),
-         url('../fonts/rapscallion_regular_macroman/RAPSCALL-webfont.woff') format('woff'),
-         url('../fonts/rapscallion_regular_macroman/RAPSCALL-webfont.ttf') format('truetype'),
-         url('../fonts/rapscallion_regular_macroman/RAPSCALL-webfont.svg#rapscallionregular') format('svg');
+    src: url('../fonts/rapscallion_regular/RAPSCALL-webfont.eot');
+    src: url('../fonts/rapscallion_regular/RAPSCALL-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rapscallion_regular/RAPSCALL-webfont.woff2') format('woff2'),
+         url('../fonts/rapscallion_regular/RAPSCALL-webfont.woff') format('woff'),
+         url('../fonts/rapscallion_regular/RAPSCALL-webfont.ttf') format('truetype'),
+         url('../fonts/rapscallion_regular/RAPSCALL-webfont.svg#rapscallionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'belligerent_madnessregular';
+    src: url('../fonts/belligerentmadness_regular/belligerent-webfont.eot');
+    src: url('../fonts/belligerentmadness_regular/belligerent-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/belligerentmadness_regular/belligerent-webfont.woff2') format('woff2'),
+         url('../fonts/belligerentmadness_regular/belligerent-webfont.woff') format('woff'),
+         url('../fonts/belligerentmadness_regular/belligerent-webfont.ttf') format('truetype'),
+         url('../fonts/belligerentmadness_regular/belligerent-webfont.svg#belligerent_madnessregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
