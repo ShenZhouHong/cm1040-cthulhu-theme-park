@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'rapscallionregular';
+    src: url('../fonts/rapscallion_regular_macroman/RAPSCALL-webfont.eot');
+    src: url('../fonts/rapscallion_regular_macroman/RAPSCALL-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rapscallion_regular_macroman/RAPSCALL-webfont.woff2') format('woff2'),
+         url('../fonts/rapscallion_regular_macroman/RAPSCALL-webfont.woff') format('woff'),
+         url('../fonts/rapscallion_regular_macroman/RAPSCALL-webfont.ttf') format('truetype'),
+         url('../fonts/rapscallion_regular_macroman/RAPSCALL-webfont.svg#rapscallionregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
