@@ -19,11 +19,11 @@ a:hover {
 
 p {
   font-family:beryliumregular;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 img {
@@ -85,4 +85,9 @@ header nav ul a {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+#columns-showcase {
+  margin-left: 5em;
+  margin-right: 5em;
 }
