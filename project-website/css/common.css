@@ -40,7 +40,7 @@ img {
   border-radius: 10px;
   text-decoration: none;
   box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
-  color: white;
+  color: #f2f2f2;
   text-align: center;
   display: block;
   margin: 0 2em;
@@ -48,6 +48,10 @@ img {
 
 .button:hover {
   background-color: #00b300;
+}
+
+.button:visited {
+  color: #f2f2f2;
 }
 
 /* Better space out the bottom of the row of buttons */
@@ -113,7 +117,7 @@ header nav ul a {
   font-weight: bold;
 }
 
-#columns-showcase {
+#columns-showcase, #tickets {
   margin-left: 5em;
   margin-right: 5em;
 }
