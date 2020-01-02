@@ -23,3 +23,29 @@ https://flic.kr/p/URjA
 By Linda Thomas-Fowler
 
 Licensed under (CC BY-NC-ND 2.0)
+
+### alan-szalwinski-sumoning.jpg
+Original source:
+
+https://flic.kr/p/oD5Ega
+
+By
+
+Alan Szalwinski
+
+https://www.flickr.com/photos/alanszalwinski/
+
+Licensed under  (CC BY-NC 2.0)
+
+### thomas-hawk-eye.jpg
+Original source:
+
+https://flic.kr/p/2hX1iQU
+
+By
+
+Thomas Hawk
+
+https://www.flickr.com/photos/thomashawk/
+
+Licensed under (CC BY-NC 2.0) 

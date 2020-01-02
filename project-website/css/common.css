@@ -26,6 +26,10 @@ h2 {
   font-size: 3em;
 }
 
+img {
+  width:100%;
+}
+
 /* styles for header */
 header {
   box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
