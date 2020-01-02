@@ -30,6 +30,32 @@ img {
   width:100%;
 }
 
+/* Making our own buttons since we're using bootstrap slim */
+.button:link {
+  font-family:beryliumregular;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #008000;
+  padding: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+  color: white;
+  text-align: center;
+  display: block;
+  margin: 0 2em;
+}
+
+.button:hover {
+  background-color: #00b300;
+}
+
+/* Better space out the bottom of the row of buttons */
+#buttons-row {
+  margin-bottom: 3em;
+}
+
+
 /* styles for header */
 header {
   box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
