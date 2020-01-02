@@ -17,7 +17,7 @@ a:hover {
   color: #008000;
 }
 
-p {
+p, ul, ol{
   font-family:beryliumregular;
   font-size: 1.2em;
 }
@@ -117,7 +117,7 @@ header nav ul a {
   font-weight: bold;
 }
 
-#columns-showcase {
+#columns-showcase, #tickets, #accessibility{
   margin-left: 5em;
   margin-right: 5em;
 }
@@ -126,8 +126,6 @@ header nav ul a {
 #tickets {
   background: linear-gradient(to right, #004d00 0%, #008000 100%);
   color: #f2f2f2;
-  margin-left: 5em;
-  margin-right: 5em;
   box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
   border: 6px dashed #000000;
 }
@@ -143,4 +141,17 @@ label {
 
 input[type=text] {
   width: 80%;
+}
+
+/* Styling for accessibility and safety information */
+#accessibility {
+  margin: 3em 5em;
+}
+
+#accessibility-image {
+
+}
+
+#accessibility-content {
+  background-image: blue;
 }
