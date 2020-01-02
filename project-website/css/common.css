@@ -8,6 +8,15 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+/* Change the links so they won't have that annoying blue color */
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #008000;
+}
+
 p {
   font-family:beryliumregular;
   font-size: 1.6em;
