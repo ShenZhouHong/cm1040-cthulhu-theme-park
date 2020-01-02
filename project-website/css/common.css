@@ -117,7 +117,26 @@ header nav ul a {
   font-weight: bold;
 }
 
-#columns-showcase, #tickets {
+#columns-showcase {
   margin-left: 5em;
   margin-right: 5em;
+}
+
+/* Styling for the ticket-buying widget */
+#tickets {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
+#tickets h2 {
+  color: #f2f2f2;
+}
+
+/* Styling for the mock submission form */
+label {
+  display: block;
+  font-family:beryliumregular;
+}
+
+input[type=text] {
+  width: 80%;
 }
