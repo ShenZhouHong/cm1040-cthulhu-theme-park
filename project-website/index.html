@@ -7,9 +7,11 @@
     <!--
       First, I will be linking to external libraries. I wanted to make sure to
       use the minimal amount of external (not-written-by-me) code, so I am
-      restricting myself to only bootstrap-grid (which only has the grid system)
+      restricting myself to only bootstrap-grid (which only has grid system),
+      the bootstrap reset (better consistency across devices, no other features)
       and jquery slim, which only has the basic jquery features (no effects).
     -->
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css"/>
     <script src="js/jquery-3.4.1.slim.min.js"></script>
 
@@ -18,7 +20,17 @@
     <script src="js/common.js"></script>
 
   </head>
-  <body>
-    <h1>test</h1>
+  <body class="container-fluid">
+    <!-- Navigation bar built entirely using HTML5 semantic elements -->
+    <header class="row align-items-center">
+      <h1 class="col-sm-4" id="main-logo">Eldritch Adventures</h1>
+      <nav class="col-sm-6">
+        <ul class="row">
+          <li class="col-sm"><a href="index.html">Home</a></li>
+          <li class="col-sm"><a href="dante.html">Dante's Joyride</a></li>
+          <li class="col-sm"><a href="summon.html">Eldritch Summoning</a></li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>
