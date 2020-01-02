@@ -129,6 +129,7 @@ header nav ul a {
   margin-left: 5em;
   margin-right: 5em;
   box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+  border: 6px dashed #000000;
 }
 #tickets h2 {
   color: #f2f2f2;
