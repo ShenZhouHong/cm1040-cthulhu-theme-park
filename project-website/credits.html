@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Eldritch Adventures Theme Park</title>
+
+    <!--
+      First, I will be linking to external libraries. I wanted to make sure to
+      use the minimal amount of external (not-written-by-me) code, so I am
+      restricting myself to only bootstrap-grid (which only has grid system),
+      the bootstrap reset (better consistency across devices, no other features)
+      and jquery slim, which only has the basic jquery features (no effects).
+    -->
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css"/>
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+
+    <!-- These are my own CSS and JavaScript files -->
+    <link rel="stylesheet" href="css/fonts.css" type="text/css">
+    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+    <script src="js/common.js"></script>
+
+  </head>
+  <body class="container-fluid">
+    <!-- Navigation bar built entirely using HTML5 semantic elements -->
+    <header class="row align-items-center" id="sticky-header">
+      <h1 class="col-sm-4" id="main-logo">Eldritch Adventures</h1>
+      <nav class="col-sm-6">
+        <ul class="row">
+          <li class="col-sm "><a href="index.html">Home</a></li>
+          <li class="col-sm"><a href="dante.html">Dante's Joyride</a></li>
+          <li class="col-sm"><a href="summon.html">Summoning</a></li>
+          <li class="col-sm"><a href="credits.html">Image Credits</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <footer class="row">
+        <section class="col-4">
+          <h2>Contact Info</h2>
+          <p>
+            Questions? Concerns? Feel free to contact the Cultists at Eldritch
+            Adventures! You may reach us by any of the following means:
+          </p>
+          <ul>
+            <li><strong>Owl Mail</strong>: Address to 1160 Cthulhu Str.</li>
+            <li><strong>Dream Msg</strong>: Visit the Peacock Door</li>
+            <li><strong>Full Moon</strong>: Howl complaints loudly</li>
+          </ul>
+        </section>
+        <section class="col-4">
+          <h2>Address</h2>
+          <p>
+            1160 Cthulhu Street<br>
+            R'lyeh, The Fallen Isles <br>
+            The Realm of Nightmares
+          </p>
+          <p>
+            Visitors are suggested to arrive via <span class="corruption">VISIONS</span>
+          </p>
+        </section>
+        <section class="col-4">
+          <h2>About Us</h2>
+          <p>
+            The Eldritch Adventures theme park is proudly ran by a dedicated
+            collective of arcane cultists and followers of the
+            <span class="corruption">OLD GODS</span>. A percentage of the
+            proceeds from every
+            <span class="corruption">RITUAL SACRIFICE</span> will be donated to
+            the Save the Children (UK).
+          </p>
+        </section>
+    </footer>
+  </body>
+</html>
