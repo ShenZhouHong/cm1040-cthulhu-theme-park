@@ -175,3 +175,12 @@ footer ul {
   font-family: beryliumregular;
   color: #f2f2f2;
 }
+
+/* Image credits styling */
+#copyright-credits {
+  margin: 6em 5em;
+}
+
+#copyright-credits a {
+  text-decoration: underline;
+}
