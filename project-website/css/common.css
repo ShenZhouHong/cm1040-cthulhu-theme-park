@@ -5,6 +5,12 @@
 /* First, defining some generic header styles, lest I go crazy */
 h1, h2, h3, h4, h5, h6 {
   font-family:rapscallionregular;
+  text-align: center;
+}
+
+p {
+  font-family:beryliumregular;
+  font-size: 1.6em;
 }
 
 h2 {
@@ -40,6 +46,8 @@ header nav ul {
 
 header nav ul a {
   color: #f2f2f2;
+  font-family: beryliumbold;
+  font-size: 1.2em;
 }
 
 /* Styles for the hero */
@@ -56,4 +64,5 @@ header nav ul a {
   font-family:rapscallionregular;
   color: #f2f2f2;
   margin-left:0.8em;
+  text-shadow: 5px 2px 2px #000000;
 }
