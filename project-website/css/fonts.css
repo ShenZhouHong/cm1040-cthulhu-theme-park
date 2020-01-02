@@ -23,3 +23,39 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'beryliumregular';
+    src: url('../fonts/berylium/berylium-webfont.woff2') format('woff2'),
+         url('../fonts/berylium/berylium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'beryliumbold';
+    src: url('../fonts/berylium/beryliumbold-webfont.woff2') format('woff2'),
+         url('../fonts/berylium/beryliumbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'beryliumbold_italic';
+    src: url('../fonts/berylium/beryliumbolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/berylium/beryliumbolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'beryliumitalic';
+    src: url('../fonts/berylium/beryliumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/berylium/beryliumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
