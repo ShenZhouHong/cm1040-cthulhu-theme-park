@@ -219,3 +219,13 @@ footer ul {
   background-image: url("../img/damsa-hell.jpg");
   background-size: cover;
 }
+
+/* Full-size background images for the specific rides */
+#summon {
+  /*height: 100vh;*/
+  padding: 4em 0;
+
+  /* Embed an image in the background of the div */
+  background-image: url("../img/damsa-summon.jpg");
+  background-size: cover;
+}
