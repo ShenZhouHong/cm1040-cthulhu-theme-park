@@ -22,9 +22,10 @@
 
   </head>
   <body class="container-fluid">
+
     <!-- Navigation bar built entirely using HTML5 semantic elements -->
     <header class="row align-items-center" id="sticky-header">
-      <h1 class="col-sm-4" id="main-logo">Eldritch Adventures</h1>
+      <h1 class="col-sm-4" >Eldritch Adventures</h1>
       <nav class="col-sm-6">
         <ul class="row">
           <li class="col-sm "><a href="index.html">Home</a></li>
@@ -34,6 +35,23 @@
         </ul>
       </nav>
     </header>
+
+    <!--
+      Hidden duplicate of the sticky header, for accessbility purposes.
+      This header is only used when the user has CSS disabled, or is using a
+      screen-reader that does not support HTML5 semantic elements.
+    -->
+    <div class="row align-items-center" id="hidden">
+      <h1 class="col-sm-4" >Eldritch Adventures</h1>
+      <div class="col-sm-6">
+        <ul class="row">
+          <li class="col-sm "><a href="index.html">Home</a></li>
+          <li class="col-sm"><a href="dante.html">Dante's Joyride</a></li>
+          <li class="col-sm"><a href="summon.html">Summoning</a></li>
+          <li class="col-sm"><a href="credits.html">Image Credits</a></li>
+        </ul>
+      </div>
+    </div>
 
     <footer class="row">
         <section class="col-sm-4">

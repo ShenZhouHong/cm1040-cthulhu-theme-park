@@ -74,7 +74,7 @@ header {
 header h1 {
   font-family: rapscallionregular;
   color: #f2f2f2;
-  font-size: 3.5em;
+  font-size: 3em;
   line-height: 1em;
 }
 
@@ -91,6 +91,10 @@ header nav ul a {
   color: #f2f2f2;
   font-family: beryliumbold;
   font-size: 1.2em;
+}
+
+#hidden {
+  background-color: #1a1a1a;
 }
 
 /* Styles for the hero */
@@ -178,9 +182,28 @@ footer ul {
 
 /* Image credits styling */
 #copyright-credits {
-  margin: 6em 5em;
+  margin: 5em;
 }
 
 #copyright-credits a {
   text-decoration: underline;
+}
+
+/* Begins styling for ride pages */
+.ride-title {
+  font-family: rapscallionregular;
+  color: #f2f2f2;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+  text-transform: uppercase;
+}
+
+/* Full-size background images for the specific rides */
+#dante {
+  height: 100vh;
+  padding-top: 5em;
+
+  /* Embed an image in the background of the hero */
+  background-image: url("../img/damsa-hell.jpg");
+  background-size: cover;
 }
