@@ -189,7 +189,9 @@ footer ul {
   text-decoration: underline;
 }
 
-/* Begins styling for ride pages */
+/*
+  Begins styling for ride pages. We will start with the common things first.
+*/
 .ride-title {
   font-family: rapscallionregular;
   color: #f2f2f2;
@@ -198,12 +200,22 @@ footer ul {
   text-transform: uppercase;
 }
 
+.rideinfo {
+  background-color: #f2f2f2;
+  margin: 1em;
+  padding: 1em;
+}
+
+.rideinfo h3 {
+  font-size: 1.5em;
+}
+
 /* Full-size background images for the specific rides */
 #dante {
-  height: 100vh;
-  padding-top: 5em;
+  /*height: 100vh;*/
+  padding: 4em 0;
 
-  /* Embed an image in the background of the hero */
+  /* Embed an image in the background of the div */
   background-image: url("../img/damsa-hell.jpg");
   background-size: cover;
 }
